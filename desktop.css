@@ -1,0 +1,99 @@
+.attribution {
+  font-size: 0.9vw;
+  text-align: center;
+  position: absolute;
+  bottom: 0vh;
+  left: 40vw;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: #36384d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form {
+  margin-top: 15vh;
+  padding: 2vw 2vh;
+  border-radius: 5%;
+  width: 40vw;
+  height: 60vh;
+  background-color: azure;
+  display: flex;
+}
+#heading {
+  font-weight: 500;
+  font-size: 1vw;
+}
+label {
+  font-weight: bold;
+  font-size: 0.9vw;
+}
+#content {
+  width: 20vw;
+}
+ul {
+  list-style-image: url("./assets/images/icon-list.svg");
+  padding-bottom: 3vh;
+}
+input {
+  height: 5vh;
+  width: 18vw;
+  margin-top: 0.5vh;
+  margin-left: 0.1vw;
+  margin-bottom: 1vh;
+  cursor: text;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 0.1vw;
+  width: 18.5vw;
+  height: 5vh;
+  color: white;
+  background-color: #36384d;
+  font-family: url("./assets/fonts/Roboto-Regular.ttf");
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1vw;
+}
+button:hover {
+  background: linear-gradient(to right, red, orange, orange);
+  transform: scale(1.01);
+  transition: all 0.1s;
+}
+#img {
+  border-radius: 5%;
+  background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+  width: 20vw;
+  height: 60vh;
+}
+#card1 {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+#error-msg {
+  width: fit-content;
+  size: 5px;
+}
+#message {
+  padding: 50px;
+  background-color: azure;
+  width: 20vw;
+  height: 40vh;
+  position: absolute;
+  top: 20vh;
+}
+#dismiss-button {
+  margin-top: 50px;
+}
+#list {
+  font-size: 1vw;
+}
